@@ -1,0 +1,41 @@
+.graphComponent {
+    width: 75%;
+    display: flex;
+    align-self: left;
+    height: 100%;
+    z-index: 1;
+    left: 10px;
+    position: fixed;
+}
+
+.newsComponent {
+    width: 25%;
+    display: flex;
+    align-items: flex-start;
+    align-self: right;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100%;
+    z-index: 1;
+    right: 20px;
+    position: fixed;    
+}
+
+.newsItem {
+}
+
+.rmd-list-item__text {
+    font-size: 12;
+    font-weight: bold;
+}
+.rmd-list-item__text--secondary {
+    font-weight: regular;
+}
+
+.prediction {
+    text-align: center;
+}
+#prediction {
+    font-size:12;
+    font-weight: bold;
+}

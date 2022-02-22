@@ -1,0 +1,36 @@
+.chartTitle{
+    margin-bottom: 20px;
+}
+
+.charts{
+    width: 100%;
+    display: flex;
+}
+
+.chart1{
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 15px -7px rgba(0,0,0,0.75); 
+    box-shadow: 0px 0px 15px -7px rgba(0,0,0,0.75); 
+}
+
+.chart2{
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 15px -7px rgba(0,0,0,0.75); 
+    box-shadow: 0px 0px 15px -7px rgba(0,0,0,0.75); 
+}
+
+.chart1row{
+    display: flex;
+}
+
+.assetTable{
+    margin-left: 3vw;
+}
+
+.assetPercentageSymbol{
+    font-weight: bold;
+}
